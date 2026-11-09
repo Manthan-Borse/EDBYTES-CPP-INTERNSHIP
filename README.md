@@ -1,62 +1,15 @@
-# EdBytes Milestone 2 - Number Guessing Game
+# EdBytes C++ Internship Projects
 
-This project is a simple C++ console game where the player tries to guess a fixed target number. The game gives feedback after each valid guess and tracks the total number of accepted attempts until the correct value is found.
+This repository contains separate folders for the completed internship
+milestones:
 
-## Features
-- Fixed target number: 42
-- Guessing range restricted to 1-100
-- Clear feedback for too high, too low, and correct guesses
-- Invalid input detection and recovery
-- Attempt counter for valid guesses only
-- Simple, beginner-friendly C++ implementation
+## Milestone 2: Number Guessing Game
 
-## Project Structure
-- `src/main.cpp` - Contains the game logic
-- `docs/TESTING.md` - Validation and test results
-- `.gitignore` - Ignores generated build artifacts
-
-## Compilation
-From the project root, run:
-
-```bash
-g++ -std=c++17 -Wall -Wextra src/main.cpp -o guessing_game.exe
-```
-
-## Execution
-```bash
-./guessing_game.exe
-```
-
-## Sample Output
-```text
-Welcome to the Number Guessing Game!
-Guess a number between 1 and 100.
-Enter your guess: 20
-Too Low!
-Enter your guess: 60
-Too High!
-Enter your guess: 42
-Correct!
-Total attempts: 3
-```
-
-## Implementation Explanation
-The program uses a `while` loop to continue prompting the user until the fixed target is guessed. Each input is checked to ensure it is a valid integer within the allowed range. Invalid input such as letters or out-of-range numbers is rejected without increasing the attempt count. When the correct number is entered, the game displays a success message and the total accepted attempts.
-
-## Learning Outcomes
-This project helps reinforce:
-- C++ input and output
-- Conditional logic with `if`, `else if`, and `else`
-- Loop-based program flow
-- Input validation and error handling
-- Variables and counters in a practical game
-
-## Testing Summary
-The program was compiled and run using the required command. Manual test cases were executed against the fixed target number to confirm the expected gameplay and validation behavior.
+- Project guide: [Milestone 2 README](Milestone%202/README.md)
+- Source: [main.cpp](Milestone%202/src/main.cpp)
+- Testing notes: [TESTING.md](Milestone%202/docs/TESTING.md)
 
 ## Milestone 3: Three-Mark Grade Calculator
 
-The Milestone 3 calculator and its report are available here:
-
-- Source: [`src/grade_calculator.cpp`](src/grade_calculator.cpp)
-- Thresholds, build instructions, and sample outputs: [`docs/MILESTONE-3-REPORT.md`](docs/MILESTONE-3-REPORT.md)
+- Source: [grade_calculator.cpp](Milestone%203/src/grade_calculator.cpp)
+- Thresholds and sample outputs: [Milestone 3 report](Milestone%203/docs/MILESTONE-3-REPORT.md)

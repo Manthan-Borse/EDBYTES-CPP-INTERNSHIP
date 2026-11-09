@@ -1,0 +1,13 @@
+# Build artifacts
+*.exe
+*.obj
+*.out
+*.o
+*.log
+
+# Editor settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp

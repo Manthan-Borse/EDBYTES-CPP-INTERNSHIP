@@ -53,3 +53,10 @@ This project helps reinforce:
 
 ## Testing Summary
 The program was compiled and run using the required command. Manual test cases were executed against the fixed target number to confirm the expected gameplay and validation behavior.
+
+## Milestone 3: Three-Mark Grade Calculator
+
+The Milestone 3 calculator and its report are available here:
+
+- Source: [`src/grade_calculator.cpp`](src/grade_calculator.cpp)
+- Thresholds, build instructions, and sample outputs: [`docs/MILESTONE-3-REPORT.md`](docs/MILESTONE-3-REPORT.md)
